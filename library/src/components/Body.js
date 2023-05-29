@@ -4,7 +4,7 @@ import BodyContainer from './BodyContainer'
 
 const Body = () => {
   return (
-    <div className='flex bg-green-500'>
+    <div className='flex bg--500'>
         <Sidebar/>
         <BodyContainer/>
     </div>

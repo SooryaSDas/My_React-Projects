@@ -1,8 +1,13 @@
 import React from 'react'
+import BookList from './BookList'
+import ProgrameList from './ProgrameList'
 
 const BodyContainer = () => {
   return (
-    <div className='h-96'>BodyContainer</div>
+    <div>
+        <BookList/>
+        <ProgrameList/>
+    </div>
   )
 }
 
